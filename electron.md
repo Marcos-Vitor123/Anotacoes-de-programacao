@@ -40,3 +40,26 @@
 }
 ```
 `resizable: false` Limita o tamanho da largura e altura da aplicação no tamanho configurado no arquivo main.js. Ou seja, não maximiza. Apenas minimiza e fecha.<br>
+`npm install electron-packager -g` Para instalar o compilador no seu projeto.<br>
+<b>Para compilar</b> Basta colocar os comandos abaixo: <br> 
+`electron-packager` --> para chamar o compilador + <br>
+`./<nome do programa>` Ex: `./MeuPrograma` + <br>
+`--platform-<nome da plataforma ou sistema operacional>` Ex: `--platform-windows` + <br>
+`--arch-<arquitetura se é x86 ou x64 do sistema operacional destinado>` Ex: `--arch-x64` + <br>
+`--out<destino ou pasta de programa compilado vai ficar>` Ex: `--out C:/users/Document/MeuPrograma` + <br>
+`--version <número da versão>` Ex: `--version 1.0.0` + <br>
+`--overwrite` E finalmente esse comando para substituir os arquivos existentes cada vez que instalar o programa no mesmo local. Se não colocar ele, aí dá um erro dizendo que aqueles arquivos já existem. Isso bom caso atualize o programa várias vezes não gerando esse erro. <br>
+
+```
+electron-packager ./MeuPrograma --platform-windows --arch-x64 --out C:/users/Document/MeuPrograma --version 1.0.0 --overwrite
+```
+=> Para automotizar esses comandos acima é só acrescentar eles no arquivo package.json. Ex: <br>
+```
+"scripts": {
+    "start": "electron main.js",
+    "build": "electron-packager ./MeuPrograma --platform-windows --arch-x64 --out C:/users/Document/MeuPrograma --version 1.0.0 --overwrite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+```
+=> E depois é chamar digitando `npm run build`. <br>
+
