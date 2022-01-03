@@ -61,5 +61,5 @@ electron-packager ./MeuPrograma --platform-windows --arch-x64 --out C:/users/Doc
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 ```
-=> E depois é chamar digitando `npm run build`. <br>
+=> E depois é só chamar digitando `npm run build`. <br>
 
