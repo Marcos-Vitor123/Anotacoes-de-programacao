@@ -22,3 +22,20 @@
         icon: __dirname + '/128.png'
     });
  ``` 
+`mainWindow.setMenuBarVisibility(false);` Para retirar barra de ferramentas padrão do windows no app. Colocar dentro da função `createWindow` Ex:
+```
+    function createWindow() {
+
+    mainWindow = new BrowserWindow({
+        width: 282,
+        height: 205,
+        icon: __dirname + '/128.png'
+    });
+
+    mainWindow.setMenuBarVisibility(false);
+    mainWindow.loadFile(__dirname + '/index.html');
+    mainWindow.on('closed', function () {
+        mainWindow = null;
+    })
+}
+```
