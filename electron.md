@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 ```
-`cursor: default;` Evita do mouse ficar selecionando letras no app.
+`cursor: default;` Evita do mouse ficar selecionando letras no app.<br>
 `icon: __dirname + '/128.png'` Adicionar ícone no app. Colocar logo abaixo de `height: 205,` no arquivo main.js dentro da `const creatWindow(){...}`. Ex: 
   ```
     mainWindow = new BrowserWindow({
