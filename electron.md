@@ -39,3 +39,4 @@
     })
 }
 ```
+`resizable: false` Limita o tamanho da largura e altura da aplicação no tamanho configurado no arquivo main.js. Ou seja, não maximiza. Apenas minimiza e fecha.<br>
