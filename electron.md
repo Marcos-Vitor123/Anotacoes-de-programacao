@@ -1,6 +1,10 @@
-<h1>Anotações de estudos e pesquisas sobre o Eléctron</h1>
+<h1>Anotações de estudos e pesquisas sobre o Framework Eléctron</h1>
 
-<img src="./electron.png">
+<a href="https://www.electronjs.org/"><b>Site oficial</b></a>
+
+Electron é um framework que te permite criar aplicações desktop com JavaScript, HTML e CSS. Incorporando [Chromium][chromium] e [Node.js][node] no seu binário, Electron permite que você mantenha uma base de código para JavaScript e crie aplicações multiplataforma que funcionam no Windows macOS, e Linux — sem necessidade de experiência de desenvolvimento nativo.
+
+<a href="https://www.electronjs.org/"><img src="./electron.png"><a/>
 
 `npm init -y` Gerar o package.json onde gerencia as configurações do app. <b>OBS:</b> O nome da pasta do projeto não pode ter acento e se houver algum espaço no nome, é preciso colocar um traço. Se não, não funciona.<br>
 `npm install --save-dev electron` Instalar o <b>Eléctron</b> no seu projeto <b>OBS:</b> Colocar `@` + o `<número da versão>` desejada, caso queira uma versão anterior específica. Mas, se quiser a versão mais atualizada. Nesse caso, não coloque nada!<br> 
