@@ -13,7 +13,7 @@ Antes de mais nada. A primeira coisa a se fazer, é instalar na sua máquina o p
 `npm install --save` + a `<dependência>` preferida => Usado para ficar no seu projeto definitivo. Isso, usando qualquer dependência como por ex: bootstrap, jquery, popper.js etc. `npm install --save bootstrap jquery popper.js`.<br>
 `npm install --save-dev` + a `<dependência>` preferida => Usado somente para desenvolver naquele projeto. Como por ex: o <b>Eléctron</b>. `npm install --save-dev electron`.<br>
 <b>A barra de ferramentas</b> que carrega junto com a aplicação no topo. Ajuda no desenvolvimento como por ex: a função do "reload" ou o atalho "CTRL + R" é para recarregar a aplicação para fins de testes. É indicado retirar ela somente no término do app.</br>
-`"start": electron main.js,` Adicionar o comando start no corpo do arquivo package.json logo abaixo de `"script": { ... }` substitui o código `node_modules/.bin/electron main.js` de chamar a aplicação. Logo após isso é só digitar `npm start` para abrir o app. Ex:
+`"start": "electron main.js",` Adicionar o comando start no corpo do arquivo package.json logo abaixo de `"script": { ... }` substitui o código `node_modules/.bin/electron main.js` de chamar a aplicação. Logo após isso é só digitar `npm start` para abrir o app. Ex:
 ```
 "scripts": {
     "start": "electron main.js",
