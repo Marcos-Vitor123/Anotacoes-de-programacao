@@ -6,6 +6,7 @@ Electron é um framework que te permite criar aplicações desktop com JavaScrip
 
 <a href="https://www.electronjs.org/"><img src="./electron.png"><a/>
 
+Antes de mais nada. A primeira coisa a se fazer, é instalar na sua máquina o pacote <a href="https://nodejs.org/pt-br/download/"><b>Node.js.</b></a> Se não fizer isso. Não irá funcionar a instalação do <b>Eléctron</b> no seu projeto.<br>
 `npm init -y` Gerar o package.json onde gerencia as configurações do app. <b>OBS:</b> O nome da pasta do projeto não pode ter acento e se houver algum espaço no nome, é preciso colocar um traço. Se não, não funciona.<br>
 `npm install --save-dev electron` Instalar o <b>Eléctron</b> no seu projeto <b>OBS:</b> Colocar `@` + o `<número da versão>` desejada, caso queira uma versão anterior específica. Mas, se quiser a versão mais atualizada. Nesse caso, não coloque nada!<br> 
 `node_modules/.bin/electron main.js` Abrir a janela da aplicação na tela.<br>
