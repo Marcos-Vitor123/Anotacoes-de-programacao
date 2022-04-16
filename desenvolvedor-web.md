@@ -15,3 +15,7 @@
 <b>Response</b> => Resposta. Exemplo: Resposta dada pelo servidor à página que fez o pedido.<br>
 <b>Aplicação Web Tradicional</b> => É uma página contendo tanto o <b>Front-end</b> e o <b>Back-end</b>, que sempre precisa ser recarregada para atualizar o conteúdo.<br>
 <b>SPA (Single Page Application) Aplicativo de Página Única</b> => É uma página onde no 1° primeiro acesso recebe todo <b>Front-end</b> no navegador. E depois toda vez que é requisitado algum pedido para o servidor, é apenas renderizado em arquivo JSON o texto de cada página requerida pelo usuario(cliente).<br>
+<b>Linguagem de programação</b> => Dá instruções para o computador.<br>
+<b>Low-level</b> => Linguagem de baixo nível. Mais próximo da máquina. Ex: Assembly (Código binários) --> `011011`. É mais difício de escrever e ler<br>
+<b>High-level</b> => Linguagem de alto nível. Mais próximo do humano. Ex: JavaScript, Python --> `if`, `else`, `function` e etc. Compilar ou interpretar.<br>
+<b>Sintaxe</br> => Conjunto de regras de escrita.<br>
