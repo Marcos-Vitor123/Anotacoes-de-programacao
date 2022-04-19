@@ -18,4 +18,4 @@
 Sobre acima: <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started#aninhando_elementos">Saiba Mais Aqui!</a><br>
 <b>Caracteres Reservados</b> => <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started">Saiba Mais Aqui!</a><br> 
 <b>Anatomia Documento</b> => <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started#anatomia_de_um_elemento_html">Saiba Mais Aqui!</a><br>
-<b>Semântica</b> => <a href="<b></b> => <a href="">Saiba Mais Aqui!</a><br>">Saiba Mais Aqui!</a><br>
+<b>Semântica</b> => <a href="<b></b> => <a href="">Saiba Mais Aqui!</a><br>"<br>
