@@ -7,4 +7,4 @@ Trata-se da reunião de todas as minhas anotações relacionadas aos meus estudo
 
 <a href="https://github.com/Marcos-Vitor123/Anotacoes-de-programacao/blob/main/desenvolvedor-web.md"><h1>Desenvolvedor Web</h1></a>
 
-<a href="https://github.com/Marcos-Vitor123/Anotacoes-de-programacao/blob/80d1b5df26bfedb85fca67fa215627c4fee03a45/html.md"><h1>HTML</h1></a>
+<a href="https://github.com/Marcos-Vitor123/Anotacoes-de-programacao/blob/main/html.md"><h1>HTML</h1></a>
