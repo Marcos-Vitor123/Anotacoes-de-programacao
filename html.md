@@ -23,3 +23,5 @@ Sobre acima: <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introd
 <b>Semântica</b> => <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics#sem%C3%A2ntica_em_html">Saiba Mais Aqui!</a> e <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#por_que_precisamos_de_sem%C3%A2ntica">Mais Aqui!</a><br>
 <b>Títulos e Parágrafos</b> => <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals">Saiba Mais Aqui!</a><br>
 <b>Listas ordenads e Não ordenadas</b> => <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#listas">Saiba Mais Aqui!</a><br>
+<b>Citações</b> => <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">Saiba Mais Aqui!</a> e <b></b><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">Mais Aqui!</a><br>
+
